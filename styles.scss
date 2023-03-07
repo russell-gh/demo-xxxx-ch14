@@ -1,0 +1,18 @@
+%important {
+    margin: 20px;
+    padding: 20px;
+}
+
+%another {
+    color: green;
+}
+
+.container {
+    @extend %important;
+    @extend %another;
+}
+
+.button {
+    @extend %important;
+    color: red;
+}
